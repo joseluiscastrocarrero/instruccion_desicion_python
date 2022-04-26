@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+          //hallar el mayor de 3 numeros enteros
+          let a, b, c, mayor;      
+          // imput
+          a = prompt("digite el valorde a: ");
+          b = prompt("digite el valorde b: ");
+          c = prompt("digite el valorde c: ");
+          //processing
+          if(a>b)
+          {
+              if(a>c)
+              {
+                  mayor= a;
+              }
+              else
+              {
+                  mayor = c;
+              }
+          }
+          else
+          {
+              if(b>c)
+              {
+                  mayor = b;
+              }
+              else
+              {
+                  mayor = c;
+              }
+          }
+
+          //output
+          alert("el numero mayor es: " + mayor);
+     </script>
+</body>
+</html>
